@@ -1,0 +1,38 @@
+.city-card {
+  width: 6em;
+  border: 1px solid lightgray;
+  border-radius: 8%;
+  padding: 0.5em;
+}
+
+.city-card:hover {
+  box-shadow: 0px 0px 0.35em 0px rgba(145, 145, 145, 0.9);
+}
+
+.city-card .heading {
+  margin: 0;
+  font-weight: 700;
+}
+
+.city-card .close-button {
+  margin-left: auto;
+  font-size: 12px;
+}
+
+.city-card .row {
+  display: flex;
+  justify-content: center;
+}
+
+.city-card .row:last-child {
+  margin-top: -0.75em;
+
+  & > div {
+    margin-right: 1em;
+  }
+}
+
+.city-card img {
+  width: 6em;
+  height: 6em;
+}
