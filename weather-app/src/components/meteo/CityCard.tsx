@@ -9,7 +9,7 @@ export interface CityCardProps {
   onCLose: () => void;
 }
 
-const CityCard: React.SFC<CityCardProps> = (props) => {
+const CityCard: React.FunctionComponent<CityCardProps> = (props) => {
   return (
     <article className="city-card">
       <div className="row">

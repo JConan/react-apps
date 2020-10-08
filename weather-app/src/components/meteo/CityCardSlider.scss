@@ -1,0 +1,15 @@
+.city-card-slider {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.city-card-slider li {
+  margin: 0;
+  padding: 0;
+  flex: 0 0 auto;
+  margin: 3px;
+}
